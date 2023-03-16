@@ -13,4 +13,11 @@ class Images{
   static const authRight="$imagePath/authRight.png";
   static const google="$imagePath/google.png";
   static const facebook="$imagePath/facebook.png";
+
+  //layout
+  static const homeIcon="$imagePath/homeIcon.png";
+  static const scanIcon="$imagePath/scanIcon.png";
+  static const addIcon="$imagePath/addIcon.png";
+  static const communityIcon="$imagePath/communityIcon.png";
+  static const profileIcon="$imagePath/profileIcon.png";
 }

@@ -24,4 +24,11 @@ class Strings{
   static const fName="First Name";
   static const lName="Last Name";
   static const confirmPassword="Confirm Password";
+
+  //layout
+  static const home="Home";
+  static const scan="Scan";
+  static const add="Add";
+  static const community="Community";
+  static const profile="profile";
 }
