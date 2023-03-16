@@ -7,5 +7,5 @@ class Images{
   static const onBoarding2="$imagePath/onboarding2.png";
   static const onBoarding3="$imagePath/onboarding3.png";
   static const onBoarding4="$imagePath/onboarding4.png";
-  static const onBoarding5="$imagePath/onboarding5.png";
+  static const onBoarding5="$imagePath/onboarding5.gif";
 }

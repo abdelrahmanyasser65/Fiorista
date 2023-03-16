@@ -4,8 +4,8 @@ class Strings{
   static const letsGetStart="Lets get started";
   static const continueB="Continue";
   static const createAccount="Create Account";
-  static const onboardingT1="";
-  static const onboardingD1="";
+  static const onboardingT1="Welcome";
+  static const onboardingD1="Grow your own personal plant oasis with fiorista";
   static const onboardingT2="Discover Your Type Of Plant";
   static const onboardingD2="Tips N Tricks to grow a healthy plant";
   static const onboardingT3="Connect With Other Plant Lovers";
