@@ -14,4 +14,14 @@ class Strings{
   static const onboardingD4="Make the poor benefit from your palm trees";
   static const onboardingT5="Scan QR code On your plant";
   static const onboardingD5="Scan the QR code to see instructions for growing your plant";
+
+  //auth
+  static const logIn="Log In ";
+  static const signUp="Sign Up";
+  static const email="Email";
+  static const password="Password";
+  static const continueWith="or continue with";
+  static const fName="First Name";
+  static const lName="Last Name";
+  static const confirmPassword="Confirm Password";
 }

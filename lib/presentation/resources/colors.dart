@@ -10,5 +10,6 @@ class ColorManager {
   static const white = Colors.white;
   static const grey = Colors.grey;
   static Color grey2=HexColor("#DEDEDE");
+  static Color formColor=HexColor("#A0A0A0");
 
 }
