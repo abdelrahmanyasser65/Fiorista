@@ -20,20 +20,39 @@ class RegisterScreen extends StatelessWidget {
       children: [
         Row(
           children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                DefaultText(
-                    text: Strings.fName,
-                    color: ColorManager.desColor2,
-                    fontSize: FontSized.fs14,
-                    fontWeight: FontWeightManager.medium),
-                DefaultTextFormFiled(
-                    controller: fNameController,
-                    textInputType: TextInputType.name,
-                    obscureText: false),
-              ],
-            )
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  DefaultText(
+                      text: Strings.fName,
+                      color: ColorManager.desColor2,
+                      fontSize: FontSized.fs14,
+                      fontWeight: FontWeightManager.medium),
+                  DefaultTextFormFiled(
+                      controller: fNameController,
+                      textInputType: TextInputType.name,
+                      obscureText: false),
+                ],
+              ),
+            ),
+            SizedBox(width: HeightSized.s2,),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  DefaultText(
+                      text: Strings.lName,
+                      color: ColorManager.desColor2,
+                      fontSize: FontSized.fs14,
+                      fontWeight: FontWeightManager.medium),
+                  DefaultTextFormFiled(
+                      controller: lNameController,
+                      textInputType: TextInputType.name,
+                      obscureText: false),
+                ],
+              ),
+            ),
           ],
         ),
         DefaultText(

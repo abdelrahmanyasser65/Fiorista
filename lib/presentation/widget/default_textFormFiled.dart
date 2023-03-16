@@ -26,7 +26,8 @@ class DefaultTextFormFiled extends StatelessWidget {
         controller:controller,
         keyboardType: textInputType,
         cursorColor: Colors.grey,
-        obscureText: obscureText,maxLines: maxLines,
+        obscureText: obscureText,
+        maxLines: maxLines,
         decoration: InputDecoration(
 
           border: OutlineInputBorder(
