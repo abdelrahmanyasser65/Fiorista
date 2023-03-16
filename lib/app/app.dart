@@ -1,4 +1,7 @@
+import 'package:fiorista/presentation/resources/images.dart';
+import 'package:fiorista/presentation/screens/intro/splash_screen.dart';
 import 'package:flutter/material.dart';
+
 import 'package:sizer/sizer.dart';
 
 class MyApp extends StatefulWidget {
@@ -19,7 +22,7 @@ class _MyAppState extends State<MyApp> {
               //useMaterial3: true,
                 //fontFamily: "Cairo"
             ),
-            home:Container() ,
+            home:SplashScreen(),
         );
       },
     );
