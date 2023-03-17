@@ -59,5 +59,17 @@ class Strings{
   static const usedTool="Buy used tool with Too cheap";
   static const crops="Buy other farmers' crops";
   static const popular="Popular Plant";
-
+  static const namePlant1="Pippa";
+  static const namePlant2="chrissy";
+  static const namePlant3="palm";
+  static const namePlant4="Ziggy";
+  static const desPlant1="PEACELILY";
+  static const desPlant2="croton";
+  static const desPlant3="PEACELIY";
+  static const desPlant4="SWISS CHEESE PLANT";
+  static const price1="14";
+  static const price2="21";
+  static const price3="30";
+  static const price4="38";
+  static const addToCart="Add To Cart";
 }

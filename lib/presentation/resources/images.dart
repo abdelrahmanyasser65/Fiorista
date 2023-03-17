@@ -37,4 +37,11 @@ class Images{
   static const cartIcon="$imagePath/cartIcon.png";
   static const usedTool="$imagePath/usedTool.png";
   static const crops="$imagePath/crops.jpg";
+  static const plant1="$imagePath/plant1.png";
+  static const plant2="$imagePath/plant2.png";
+  static const plant3="$imagePath/plant3.png";
+  static const plant4="$imagePath/plant4.png";
+  static const leav="$imagePath/leav.png";
+  static const addCIcon="$imagePath/addIcon.png";
+
 }
