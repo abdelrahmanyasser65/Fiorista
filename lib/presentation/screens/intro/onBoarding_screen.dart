@@ -128,11 +128,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 child:Column(
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(
-                        left: HeightSized.s9
+                      padding:
+                      EdgeInsets.only(
+                        left:currentIndex==0||currentIndex==4? HeightSized.s5:HeightSized.s10
                       ),
                       child: DefaultButton(
-                        height:HeightSized.s8 ,
+                        height:HeightSized.s7 ,
                         width: double.infinity,
                         color: ColorManager.primary,
                         onPressed: ()
@@ -164,7 +165,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         spacing:  10.0,
                         radius: 10,
                         dotWidth:  HeightSized.s3,
-                        dotHeight:  HeightSized.s1+HeightSized.sh8,
+                        dotHeight:  HeightSized.s1+HeightSized.sh5,
                         dotColor:  ColorManager.grey2,
                         activeDotColor:  ColorManager.primary,
                       ),

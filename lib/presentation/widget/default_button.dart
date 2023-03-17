@@ -24,7 +24,7 @@ class DefaultButton extends StatelessWidget {
         elevation: 0,
         backgroundColor: color,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(HeightSized.s1+HeightSized.sh3),
+          borderRadius: BorderRadius.circular(HeightSized.s1+HeightSized.sh8),
         ),
       ),
       child: SizedBox(

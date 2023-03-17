@@ -15,9 +15,20 @@ class Images{
   static const facebook="$imagePath/facebook.png";
 
   //layout
-  static const homeIcon="$imagePath/homeIcon.png";
-  static const scanIcon="$imagePath/scanIcon.png";
-  static const addIcon="$imagePath/addIcon.png";
-  static const communityIcon="$imagePath/communityIcon.png";
-  static const profileIcon="$imagePath/profileIcon.png";
+  static const homeIcon="$imagePath/homeIcon.svg";
+  static const scanIcon="$imagePath/scanIcon.svg";
+  static const addIcon="$imagePath/addIcon.svg";
+  static const communityIcon="$imagePath/communitIcon.svg";
+  static const profileIcon="$imagePath/profileIcon.svg";
+
+  //scan
+  static const plantL="$imagePath/plantL.png";
+  static const plantS="$imagePath/plantS.png";
+  static const scanQr="$imagePath/scanQr.png";
+  static const scanR="$imagePath/scanR.png";
+  static const cardScan="$imagePath/cardScan.png";
+  static const arrowIcon="$imagePath/arrowIcon.png";
+  static const cardBlog="$imagePath/cardBlog.png";
+  static const typeCard="$imagePath/typeCard.png";
+  static const blogPlant="$imagePath/blogPlant.png";
 }

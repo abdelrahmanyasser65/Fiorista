@@ -27,18 +27,23 @@ class _AppLayoutState extends State<AppLayout> {
           buildCurvedNavigationBarItem(
             text:LayoutModel.titleNav[0],
             image:LayoutModel.icons[0],
+
           ), buildCurvedNavigationBarItem(
             text:LayoutModel.titleNav[1],
             image:LayoutModel.icons[1],
+
           ), buildCurvedNavigationBarItem(
             text:LayoutModel.titleNav[2],
             image:LayoutModel.icons[2],
+
           ), buildCurvedNavigationBarItem(
             text:LayoutModel.titleNav[3],
             image:LayoutModel.icons[3],
+
           ), buildCurvedNavigationBarItem(
             text:LayoutModel.titleNav[4],
             image:LayoutModel.icons[4],
+
           ),
         ],
         onTap: (index){

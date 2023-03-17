@@ -31,4 +31,19 @@ class Strings{
   static const add="Add";
   static const community="Community";
   static const profile="profile";
+
+  //scan
+  static const snakePlant="Snake Plant";
+  static const desBlog="Native to southern Africa, snake plants are well adapted to conditions similar to those in southern regions of the United States. Because of this, they may be grown outdoors for part of all of the year in USDA zones 8 and warmer";
+  static const commonSnake="Common Snake Plant Diseases";
+  static const desBlog2="A widespread problem with snake plants is root rot. This results from over-watering the soil of the plant and is most common in the ";
+  static const goBlog="Go To Blog";
+  static const type="Type";
+  static const outdoor="Outdoor";
+  static const size="Size";
+  static const medium="medium";
+  static const level="medium";
+  static const easy="Easy";
+  static const titleBlog="5 simple Tips to treat plants";
+  static const desBlog3="leaf, in botany, any usually flattened green outgrowth from the stem of ";
 }
