@@ -46,4 +46,15 @@ class Strings{
   static const easy="Easy";
   static const titleBlog="5 simple Tips to treat plants";
   static const desBlog3="leaf, in botany, any usually flattened green outgrowth from the stem of ";
+
+  //home
+  static const discover="Discover Your Plant";
+  static const search="Find your Plant";
+  static const all="All";
+  static const plant="Plant";
+  static const tree="Tree";
+  static const palm="Palm";
+  static const seeds="Seeds";
+  static const tools="Tools";
+
 }

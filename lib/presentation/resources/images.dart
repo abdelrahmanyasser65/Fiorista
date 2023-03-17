@@ -31,4 +31,8 @@ class Images{
   static const cardBlog="$imagePath/cardBlog.png";
   static const typeCard="$imagePath/typeCard.png";
   static const blogPlant="$imagePath/blogPlant.png";
+
+  //home
+  static const filterIcon="$imagePath/filterIcon.png";
+  static const cartIcon="$imagePath/cartIcon.png";
 }
