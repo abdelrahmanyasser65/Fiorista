@@ -56,5 +56,8 @@ class Strings{
   static const palm="Palm";
   static const seeds="Seeds";
   static const tools="Tools";
+  static const usedTool="Buy used tool with Too cheap";
+  static const crops="Buy other farmers' crops";
+  static const popular="Popular Plant";
 
 }

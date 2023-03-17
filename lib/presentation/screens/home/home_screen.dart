@@ -104,6 +104,59 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 itemCount: category.length),
           ),
+          SizedBox(height: HeightSized.s2,),
+          SizedBox(
+            height: HeightSized.s10,
+
+            child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                shrinkWrap: true,
+                physics:const BouncingScrollPhysics(),
+                itemBuilder: (context,index){
+                  return InkWell(
+                    onTap: (){
+
+                    },
+                    child: Container(
+                      width: HeightSized.s30+HeightSized.s4,
+                      padding: EdgeInsets.symmetric(
+                          horizontal: HeightSized.s2,
+                          vertical: HeightSized.s1
+                      ),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: ColorManager.primary
+                      ),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: DefaultText(
+                                text: buyUsed[index].text,
+                                color: ColorManager.white,
+                                fontSize: FontSized.fs14,
+                                fontWeight: FontWeightManager.medium),
+                          ),
+                          Image.asset(buyUsed[index].image)
+                        ],
+                      ),
+                    ),
+                  );
+                },
+                separatorBuilder: (context,index)=>SizedBox(
+                  width: HeightSized.s2,
+                ),
+                itemCount: buyUsed.length),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(
+              vertical: HeightSized.s2
+            ),
+            child: DefaultText(
+                text: Strings.popular,
+                color: ColorManager.primary,
+                fontSize: FontSized.fs18,
+                fontWeight: FontWeightManager.bold),
+          ),
         ],
       ),
     );

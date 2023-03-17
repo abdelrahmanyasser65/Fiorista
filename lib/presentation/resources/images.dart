@@ -35,4 +35,6 @@ class Images{
   //home
   static const filterIcon="$imagePath/filterIcon.png";
   static const cartIcon="$imagePath/cartIcon.png";
+  static const usedTool="$imagePath/usedTool.png";
+  static const crops="$imagePath/crops.jpg";
 }
